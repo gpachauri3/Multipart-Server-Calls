@@ -1,0 +1,106 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+    <style name="CustomTextAppearance" parent="android:TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/Dosis-Medium.ttf</item>
+    </style>
+    <!--Custom bold text appearance-->
+    <style name="CustomTextAppearance.Bold" parent="CustomTextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/Dosis-Bold.ttf</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--Custom light text appearance-->
+    <style name="CustomTextAppearance.Light" parent="CustomTextAppearance">
+        <item name="fontPath">fonts/Dosis-Light.ttf</item>
+    </style>
+    <!--Custom bold text appearance-->
+
+    <!--Custom light text appearance-->
+
+
+    <!--Custom bold Heading text appearance-->
+    <style name="CustomTextHeading.Bold" parent="CustomTextAppearance.Bold">
+        <item name="android:textSize">@dimen/font_xlarge</item>
+    </style>
+
+    <style name="primary_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_selector_primary_color</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_xlarge</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!--Custom EditText appearance-->
+    <style name="DeafaultEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/spacing_normal</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/gray_dark</item>
+        <item name="android:weekSeparatorLineColor">@color/colorAccent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!--View seperator-->
+    <style name="ViewSeperator">
+        <item name="android:layout_width">@dimen/seperator_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/spacing_large</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_large</item>
+        <item name="android:layout_marginStart">@dimen/spacing_normal</item>
+        <item name="android:layout_marginEnd">@dimen/spacing_normal</item>
+        <item name="android:background">@color/charcoal_grey</item>
+
+    </style>
+
+    <!--Circular Image View-->
+    <style name="CircularImageView">
+        <item name="android:layout_width">@dimen/circular_image_side</item>
+        <item name="android:layout_height">@dimen/circular_image_side</item>
+
+    </style>
+
+    <!-- Rounded TextViews-->
+
+
+    <style name="RoundedButtonPrimary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:layout_marginTop">@dimen/spacing_normal</item>
+        <item name="android:background">@drawable/shape_pill_primary</item>
+        <item name="android:padding">@dimen/spacing_small</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <!--TextView-->
+    <style name="DefaultTexView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/spacing_normal</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <com.skeleton.util.customview.MaterialEditText
+        android:id="@+id/frag_signin_et_email"
+        style="@style/DeafaultEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_signin_email_phone"
+        android:inputType="textEmailAddress"/>
+
+
+    <com.skeleton.util.customview.MaterialEditText
+        android:id="@+id/frag_signin_et_pass"
+        style="@style/DeafaultEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frag_signin_et_email"
+        android:hint="@string/hint_signup_pass"
+        android:inputType="textPassword"/>
+
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/frag_signin_cb_remb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frag_signin_et_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:text="@string/text_remember_me"/>
+
+    <TextView
+        android:id="@+id/frag_signin_tv_forgot"
+        style="@style/CustomTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frag_signin_cb_remb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:text="@string/text_forgot_pass"/>
+
+    <Button
+        android:id="@+id/frag_signin_bt_sign_in"
+        style="@style/RoundedButtonPrimary"
+        android:layout_below="@+id/frag_signin_tv_forgot"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="@string/text_btn_signin"/>
+
+    <Button
+        android:id="@+id/frag_signin_bt_fb"
+        style="@style/RoundedButtonPrimary"
+        android:layout_below="@+id/frag_signin_bt_sign_in"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/shape_pill_secondary"
+        android:text="@string/text_btn_signin_fb"/>
+
+
+
+</RelativeLayout>

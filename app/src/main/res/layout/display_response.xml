@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_medium"
+    tools:context="com.skeleton.activity.DisplayResponseActivity">
+
+    <TextView
+        android:id="@+id/screen_b_access"
+        style="@style/DefaultTexView"
+        android:text="@string/text_tv_access_token"/>
+
+    <TextView
+        android:id="@+id/screen_b_first_name"
+        style="@style/DefaultTexView"
+        android:text="@string/text_tv_first_name"/>
+
+    <TextView
+        android:id="@+id/screen_b_last_name"
+        style="@style/DefaultTexView"
+        android:text="@string/text_tv_last_name"/>
+
+    <TextView
+        android:id="@+id/screen_b_id"
+        style="@style/DefaultTexView"
+        android:text="@string/text_tv_id"/>
+
+    <TextView
+        android:id="@+id/screen_b_created_at"
+        style="@style/DefaultTexView"
+        android:text="@string/text_tv_created_at"/>
+
+    <TextView
+        android:id="@+id/screen_b_updated_at"
+        style="@style/DefaultTexView"
+        android:text="@string/text_tv_updated_at"/>
+
+    <TextView
+        android:id="@+id/screen_b_dob"
+        style="@style/DefaultTexView"
+        android:text="@string/text_tv_dob"/>
+
+    <TextView
+        android:id="@+id/screen_b_country_code"
+        style="@style/DefaultTexView"
+        android:text="@string/text_tv_country_code"/>
+
+    <TextView
+        android:id="@+id/screen_b_phone"
+        style="@style/DefaultTexView"
+        android:text="@string/text_tv_phone"/>
+
+    <TextView
+        android:id="@+id/screen_b_user_image"
+        style="@style/DefaultTexView"
+        android:text="@string/text_tv_user_image"/>
+
+    <TextView
+        android:id="@+id/screen_b_gender"
+        style="@style/DefaultTexView"
+        android:text="@string/text_tv_gender"/>
+
+    <TextView
+        android:id="@+id/screen_b_about"
+        style="@style/DefaultTexView"
+        android:text="@string/text_tv_about"/>
+
+    <TextView
+        android:id="@+id/screen_b_drinking"
+        style="@style/DefaultTexView"
+        android:text="@string/text_tv_drinking"/>
+
+    <TextView
+        android:id="@+id/screen_b_language"
+        style="@style/DefaultTexView"
+        android:text="@string/text_tv_language"/>
+
+
+</LinearLayout>
